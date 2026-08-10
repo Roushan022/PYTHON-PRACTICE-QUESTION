@@ -3,5 +3,6 @@ threshold = 5
 
 for item, qty in items:
     if qty < threshold:
-        print(f"{item} needs restock")
+        print(f"{item} needs restock left quantity {qty}")
+    
       
